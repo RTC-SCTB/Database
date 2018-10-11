@@ -11,4 +11,4 @@
 Пароль: `ubnt`
 
 Если все прошло хорошо, должна появиться вот такая картина
-![Image alt](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/PEP8_image1.jpg)
+![Main page](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/main.jpg)
