@@ -8,14 +8,13 @@ Git - система контроля версий.
 - Понять, что вообще происходит: [1](https://habr.com/company/playrix/blog/345732/), 
 [2](https://habr.com/company/playrix/blog/348864/),
 [3](https://habr.com/company/playrix/blog/350492/) 
-- Как добавить свой проект на GitHub: [тут](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
-- Как пользоваться оформлением в файлах *.md: [тут](https://help.github.com/articles/basic-writing-and-formatting-syntax),
+- [Как добавить свой проект на GitHub](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+- [Как пользоваться оформлением в файлах *.md](https://help.github.com/articles/basic-writing-and-formatting-syntax),
 [тут дополнительное](https://guides.github.com/features/mastering-markdown/)
-- Перенос проекта в другой репозиторий (например из своего в корпоративный):
- [тут](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/) и 
-[тут](https://help.github.com/articles/about-repository-transfers/)
-- Несколько полезностей для исправления ошибок: [тут](https://ru.hexlet.io/blog/posts/oh-shit-git)
-- Очень подробная документация на все и на русском: [тут](https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)
+- [Перенос проекта в другой репозиторий](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/) 
+(например из своего в корпоративный) и [общая информация](https://help.github.com/articles/about-repository-transfers/)
+- [Несколько полезностей для исправления ошибок](https://ru.hexlet.io/blog/posts/oh-shit-git)
+- [Очень подробная документация на все и на русском](https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)
 - Пара приложений для работы с Git через графический интерфейс: [GitKraken](https://www.gitkraken.com/),
  [SmartGit](https://www.syntevo.com/smartgit/).  
  ***ВНИМАНИЕ***: лично я графическими приложениями не пользовался вообще,
