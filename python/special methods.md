@@ -118,7 +118,54 @@ data = SomeData()
 
 * А еще он может подгадить так:
 ```python
+class Test:
+    def __init__(self):
+        self.data = 1   # тут класс войдет в рекурсию) и при привышении стека вызовов вызовется исключение
+    
+    def __setattr__(self, key, value):
+        if key == "data":
+            self.data = value
 
+Test()
+```
+Решением этого является:
+```python
+class Test:
+    def __init__(self):
+        self.data = 1
+        self.otherData = 2
+    
+    def __setattr__(self, key, value):
+        self.__dict__[key] = value  # добавляем/изменяем значение одного из полей класса без вызова __setattr__
+
+test = Test()
+print(test.__dict__)    # выведется {'data': 1, 'someData': 2} 
+```
+
+Казалось бы, зачем он вообще тогда нужен, и лучше бы его не трогать, однако нет)
+* Приватные переменные
+```python
+class Private:
+    def __init__(self):
+        self.__privateVar = 22  # В памяти класса эта переменная будет храниться как _Private__privateVar 
+        
+private = Private()
+private.__privateVar = 1    # Т.к. переменная __privateVar была создана с другим именем, имя __privateVar свободно,
+#  и оно занимается данным значением
+```
+
+Одно из решений:
+```python
+class Private:
+    def __init__(self):
+        self.__privateVar = 22
+    
+    def __setattr__(self, key, value):
+        if key[:2] == "__":    # если такого значения нет в словаре 
+            raise AttributeError("Нельзя изменять приватные переменные")
+        else:
+            pass   # TODO: Доделать 
+           
 ```
 
 ## Представление классов
