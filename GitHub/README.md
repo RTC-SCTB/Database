@@ -12,7 +12,7 @@ Git - система контроля версий.
 - [Как пользоваться оформлением в файлах *.md](https://help.github.com/articles/basic-writing-and-formatting-syntax),
 [тут дополнительное](https://guides.github.com/features/mastering-markdown/)
 - [Перенос проекта в другой репозиторий](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/) 
-(например из своего в корпоративный) и [общая информация](https://help.github.com/articles/about-repository-transfers/)
+(например из своего в корпоративный) и [изменение ссылки в локальном репозитории](https://help.github.com/articles/about-repository-transfers/)
 - [Несколько полезностей для исправления ошибок](https://ru.hexlet.io/blog/posts/oh-shit-git)
 - [Очень подробная документация на все и на русском](https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)
 - Пара приложений для работы с Git через графический интерфейс: [GitKraken](https://www.gitkraken.com/),
