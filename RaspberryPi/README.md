@@ -9,7 +9,7 @@ Mathematica и Minecraft).
 командной строки.
 
 ### Распиновка
-![GPIO](https://github.com/victorvorobev/Database/blob/master/RaspberryPi/Images/rpiGpio.png)   
+![GPIO](https://github.com/RTC-SCTB/Database/blob/master/RaspberryPi/Images/rpiGpio.png)   
 Пины Raspberry Pi - основной способ взаимодействия с внешним миром. На них выведен ряд интерфейсов:
 `I2C`,`UART`, `SPI`. Также к Raspberry можно подключать различную электронику напрямую к пинам ввода-вывода (GPIO). 
 Raspberry позволяет читать состояние каждого из этих пинов, а также программно их задавать.

@@ -20,7 +20,7 @@ IP-адресу, со стандартным логином и паролем.
 
 Если все прошло хорошо, должна появиться вот такая картина (для Bullet'а настроенного как точка доступа) - **вкладка 
 Main**  
-![Main page](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/main.jpg)  
+![Main page](https://github.com/RTC-SCTB/Database/blob/master/Bullet/Images/main.jpg)  
 
 Здесь отражены все основные сведения о текущем состоянии Bullet'a, названия в большинстве своем говорят за себя.
 Основные, которые будут вас волновать скорее всего чаще всего:
@@ -38,7 +38,7 @@ Main**
 
 
 ## Вкладка airMAX  
-![airMAX](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/airMAX.jpg)  
+![airMAX](https://github.com/RTC-SCTB/Database/blob/master/Bullet/Images/airMAX.jpg)  
 
 Здесь происходит настройка всех параметров airMAX для Bullet'ов.
 Если Bullet настроен как точка доступа (на картинке), здесь можно включить или выключить эту надстройку.  
@@ -46,7 +46,7 @@ Main**
 Пока никто не экспериментировал с этими настройками в полной мере.  
 
 ## Вкладка Wireless для Bullet настроенного как Access Point  
-![Access Point](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/wireless_access_point.jpg)    
+![Access Point](https://github.com/RTC-SCTB/Database/blob/master/Bullet/Images/wireless_access_point.jpg)    
 Основные настройки:
 - `Wireless Mode` - Режим работы Bullet - станция, точка доступа, повторитель (не использовалось нами).
 
@@ -72,7 +72,7 @@ IP-адреса настроены под другую подсеть, Raspberry
 
 
 ## Вкладка Wireless для Bullet настроенного как Station  
-![Station](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/wireless_station.jpg)  
+![Station](https://github.com/RTC-SCTB/Database/blob/master/Bullet/Images/wireless_station.jpg)  
 Настроек здесь гораздо меньше, к тому же большая часть совпадает с настройками точки доступа.
 Основные настройки:  
 - `SSID` - имя сети, к которой будет подключаться станция. Можно нажать кнопку `Select` и выбрать точку доступа из тех, 
@@ -82,7 +82,7 @@ IP-адреса настроены под другую подсеть, Raspberry
 Остальные настройки совпадают с настройками точки доступа.
 
 ## Вкладка Network  
-![Network](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/network.jpg)  
+![Network](https://github.com/RTC-SCTB/Database/blob/master/Bullet/Images/network.jpg)  
 Здесь настраивается все, что касается проводного соединения с Bullet.  
 Основные настройки:
 - `Management IP Address` - фиксированный (Static) или динамический (DHCP) ip-адрес установлен у Bullet'a. Динамический
@@ -97,12 +97,12 @@ IP должен кто-то выдавать, поэтому DHCP указыва
  будет к нему подключиться
 
 ## Вкладка Advanced  
-![Advanced](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/advanced.jpg)  
+![Advanced](https://github.com/RTC-SCTB/Database/blob/master/Bullet/Images/advanced.jpg)  
 Откровенно говоря тут никто никогда и ничего не настраивал, так что оставим этот раздел на будущее. Из того, что может
 быть интересным - настройка `Signal LED hresholds` - указать какой светодиод должен загораться при каком уровне сигнала.
 
 ## Вкладка Services  
-![Services](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/services.jpg)  
+![Services](https://github.com/RTC-SCTB/Database/blob/master/Bullet/Images/services.jpg)  
 Тут тоже никто ничего и никогда не настраивал. Из того что кажется интересным на первый взгляд:
 - `Ping watchdog` - Bullet будет периодически пинговать указанный IP адрес. В случае если этот адрес окажется 
 недостижим, Bullet перезагружается.
@@ -110,7 +110,7 @@ IP должен кто-то выдавать, поэтому DHCP указыва
 - `SSH server` - настройки подключения к Bullet по ssh. Не знаю зачем может понадобиться изменять настройки по умолчанию.
 
 ## Вкладка System  
-![System](https://github.com/victorvorobev/Database/blob/master/Bullet/Images/system.jpg)  
+![System](https://github.com/RTC-SCTB/Database/blob/master/Bullet/Images/system.jpg)  
 Общие настройки конкретно для этого Bullet'a: 
 - Текущая версия прошивки, которую следует периодически обновлять. Для этого c 
 [официального сайта](https://www.ubnt.com/download/airmax-m/bulletm) скачивается последняя версия прошивки, после чего
