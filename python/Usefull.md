@@ -38,5 +38,9 @@ sys.path.append('include/MyRPiPWM')
 sys.path.append('include/Joystick')
 import RTCJoystick
 import RPiPWM
-
 ```
+Также (вроде) допустимо называть папку также как модуль, и писать, например:
+```python
+from RPiPWM import RPiPWM
+```
+***ВАЖНО:*** требуется дополнительное исследование этого всего.
