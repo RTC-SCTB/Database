@@ -22,6 +22,13 @@ import sys
 sys.path.append('include/Joystick')
 import RTCJoystick
 ``` 
+Чтобы так не делать, по хорошему импортируемый модуль должен содержать файл `__init__.py` в котором будет описано, что
+и откуда данный модуль импортирует для своей работы. Например в случае с `RTCJoystick` он должен выглядеть так:
+```python
+from . import RTCEventMaster
+```  
+В этом же файле может содержаться информация о версии импортируемого модуля.  
+Подробнее смотреть [тут](https://docs.python.org/3/distutils/setupscript.html?highlight=__init__).
 
 Допустимы записи:
 ```python
