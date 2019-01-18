@@ -8,6 +8,7 @@ Git - система контроля версий.
 - Понять, что вообще происходит: [1](https://habr.com/company/playrix/blog/345732/), 
 [2](https://habr.com/company/playrix/blog/348864/),
 [3](https://habr.com/company/playrix/blog/350492/) 
+- Попрактиковаться в использовании: [gitgame](https://github.com/git-game/git-game-v2)
 - [Как добавить свой проект на GitHub](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
 - [Как пользоваться оформлением в файлах *.md](https://help.github.com/articles/basic-writing-and-formatting-syntax),
 [тут дополнительное](https://guides.github.com/features/mastering-markdown/)
